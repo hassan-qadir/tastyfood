@@ -1,0 +1,444 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: serif;
+	/*transition: 0.3s linear;*/ 
+}
+.site1{
+	width: 100%;
+	height:100vh;
+	background: linear-gradient(90deg, #9eff90, #9e9d90);
+	/*clip-path: polygon(0% 0%, 100% 0);*/
+
+
+}
+html{
+	scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+nav{
+	width: 100%;
+	height: 7%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background:linear-gradient(90deg, #9eff90, #9e9d90);
+	/*margin-top: 5px;*/
+	position: fixed;
+	transition: 0.3s linear;
+}
+.logo{
+	font-size: 2.3rem;
+	transition: 0.3s linear;
+}
+
+.menu a{
+   padding-left: 3.0rem;
+   font-size: 1.7rem;
+   text-decoration: none;
+   color: black;
+   transition: 0.3s linear;
+}
+.menu a:first-child{
+	background-color: white;
+	color:#13ba46;
+	padding:.3rem .6rem;
+	transition: 0.3s linear;
+}
+.menu a:hover{
+	color: #13ba46;
+}
+.main{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	 transform-style: preserve-3d;
+    transform-origin: center;
+    perspective: 2000px;
+    transition: 0.3s linear;
+}
+.leftside{
+	margin-bottom: 3.0rem;
+	width: 50%;
+	height: 30%;
+	text-align: center;
+	transition: 0.3s linear;
+}
+.leftside h1{
+	font-size: 7.0rem;
+	font-weight: bold;
+   transition: 0.3s linear;
+}
+.leftside p{
+	font-size: 3.0rem;
+	margin-top: 3.0rem;
+	margin-bottom: 5.0rem;
+	padding-left: 5.5rem;
+   transition: 0.3s linear;
+}
+.btn1{
+	text-decoration: none;
+	color: white;
+	background-color:#13ba46;
+	padding: 1.3rem 1.0rem;
+   transition: 0.3s linear;	
+   border-radius: .3rem;
+
+}
+
+.rightside{
+	width: 50%;
+	height: 30%;
+   transition: 0.3s linear;
+}
+.image{
+	margin-top: 8.0rem;
+	width: 80%;
+	height: 60%;
+	transition: 0.3s;
+}
+#aboutus{
+	padding: 8.5rem 0rem;
+}
+.secondp{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.right{
+	width: 50%;
+	height: 30%;
+}
+.image1{
+	padding-left: 7.0rem; 
+	width: 90%;
+	height: 70%;
+}
+.left{
+	width: 40%;
+	margin-bottom: 8.0rem;
+}
+.left h5{
+	font-size: 2.0rem;
+	color: #13ba46;
+}
+.left h2{
+	font-size: 5.0rem;
+	color: black;
+	margin: 1.5rem 0rem;
+}
+.left p{
+	font-size: 2.0rem;
+	margin-bottom: 2.7rem;
+} 
+.btn{
+	text-decoration: none;
+	color: white;
+	background-color: #13ba46;
+	padding: 1.0rem 1.0rem;
+	border-radius: .3rem;
+}
+#services{
+	padding: 7.0rem 0rem;
+}
+.heading h4{
+	font-size: 2.0rem;
+	color: #13ba46;
+	margin-left: 63.5rem;
+}
+.heading h2{
+	margin-left: 52.0rem;
+	font-size: 3.5rem;
+	margin-top: 1.0rem;
+
+}
+.thirdp{
+	margin-top: 6.0rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-left: 19.0rem;
+}
+.image2{
+	width: 30%;
+}
+.image3{
+	width: 20%;
+}
+.image4{
+	width: 15%;
+
+}
+.firstside{
+	text-align: center;
+}
+.secondside{
+	text-align: center;
+	margin-left: 7.5rem;
+}
+.thirdside
+{
+	width: 30%;
+	text-align: center;
+	margin-right: 12.5rem;
+}
+.firstside p{
+	margin-top: 1.8rem;
+	margin-bottom: 2.5rem;
+	font-size: 1.5rem
+	
+}
+.secondside p{
+	margin-top: 2.0rem;
+	font-size: 1.5rem
+}
+.thirdside p{
+	margin-top: 2.0rem;
+	font-size: 1.5rem;
+}
+.backimg{
+	height: 80%;
+	background:linear-gradient(90deg, #9eff90, #9e9d90);
+}
+
+.image5{
+	width: 45%;
+}
+.image6{
+	width: 45%;
+}
+.image7{
+	width: 45%;
+}
+.forthside{
+	text-align: center;
+	box-shadow: .1rem 0rem .3rem;
+	width: 25%;
+	height: 20%;
+}
+.fifthside{
+	text-align: center;
+	/*margin-right: 150px;*/
+	box-shadow: 1px 0px 3px;
+	width: 25%;
+	height: 20%;
+	/*margin-left: 10px;*/
+}
+.sixthside{
+	margin-right: 19.0rem;
+	text-align: center;
+	box-shadow: 1px 0px 3px;
+	width: 25%;
+	height: 20%;
+}
+.forthside h3{
+	margin-top: 4.0rem;
+	margin-bottom: .4rem;
+}
+.fifthside h3{
+    margin-top: 4.0rem;
+    margin-bottom: .4rem;
+}
+.sixthside h3{
+	margin-top: 4.0rem;
+	margin-bottom: .4rem;
+}
+h6{
+	margin-top: 1.0rem;
+	font-size: 2.0rem;
+}
+.logo5{
+	width: 17%;
+	padding: 1.0rem 1.0rem;
+	background: #dcdcdc;
+	margin-left: 22.7rem;
+}
+#menu{
+	padding: 7.0rem .0rem;
+}
+#fifthp{
+	padding: 4.0rem .0rem;
+}
+.appstore{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.leftside2{
+   width: 110%;
+   margin-left: 9.0rem;
+}
+.images99{
+	width: 140%;
+	height: 170%;
+}
+.rightside2{
+	margin-left: 19.0rem;
+}
+.rightside2 h5{
+	color: #13ba46;
+	font-size: 2.5rem;
+	padding-bottom: 2.0rem;
+}
+.rightside2 h2{
+	font-size: 5.5rem;
+	font-family: cursive;
+	margin-bottom: 1.0rem;
+}
+.mmj1{
+	margin-top: 2.0rem;
+	width: 20%;
+
+}
+.mmj2{
+	margin-top: 2.0rem;
+	width: 20%;
+}
+.bckg{
+	background: linear-gradient(90deg, #9eff90, #9e9d90);
+}
+#contactus{
+	margin: 15.0rem 0rem;
+}
+.contact{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.leftside3{
+	margin-right: 21.5rem;
+}
+.leftside3 h5{
+	color: #13ba46;
+	font-size: 2.0rem;
+}
+.leftside3 h3{
+	font-size: 3.0rem;
+	margin: 1.5rem 0rem;
+}
+.leftside3 p{
+	font-size: 1.8rem;
+}
+.rightside3{
+	margin-right: 8.5rem;
+}
+.btn5{
+	padding: 1.0rem 1.5rem;
+	background: #13ba46;
+	color: white;
+	text-decoration: none;
+	font-size: 2.2rem;
+
+}
+#footer{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	/*margin-bottom: 30px;*/
+	/*background:linear-gradient(90deg, #9eff90, #9e9d90);*/
+}
+.col-1 h3{
+	font-size: 2.5rem;
+	color: #13ba46;;
+}
+.img30{
+	width: 8.0rem;
+}
+.col-1 p{
+	margin: 1.5rem 0rem;
+}
+.col-2 h3{
+	font-size: 2.0rem;
+}
+.col-2 p{
+	margin-top: .2rem;
+}
+.col-3 h3{
+	font-size: 2.0rem;
+}
+.col-3 p{
+	margin-top: .2rem;
+}
+@media (max-width: 420px){
+	html{
+		font-size: 22%;
+	}
+    .site1{
+	/*width: 100%;*/
+	height:40vh;
+}
+.main{
+	padding-top: 12rem;
+
+}
+.leftside{
+	font-size: 3rem;
+	padding-top: 6rem;
+}
+.rightside{
+	width: 55rem;
+}
+#aboutus{
+ height: 35vh;
+}
+.secondp{
+	padding-top: 14rem;
+}
+.backimg{
+	padding-top: 2rem;
+	padding-bottom: 2rem
+}
+#services{
+height: 35vh;
+}
+.appstore{
+	height: 15vh;
+}
+
+  nav{
+	height: 2%;
+}
+  .mmj1{
+	margin-top: 1.0rem;
+	width: 10%;
+
+}
+.mmj2{
+	margin-top: 1.0rem;
+	width: 10%;
+}
+.heading h4{
+	
+	margin-left: 52.5rem;
+}
+.heading h2{
+	margin-left: 40.0rem;
+
+
+}
+.logo5{
+	width: 13%;
+	margin-left: 13.7rem;
+}
+
+}
+.secondside{
+	margin-left: 2.5rem;
+}
+.firstside{
+	width: 30%;
+}
+.secondside{
+	width: 30%;
+}
+.thirdside
+{
+	width: 30%;
+}
+.leftside3{
+	padding left: 1.5rem;
+}
+.menu a{
+	font-size: 1.7rem;
+}
